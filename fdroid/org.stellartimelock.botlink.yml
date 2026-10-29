@@ -1,0 +1,26 @@
+Categories:
+  - Connectivity
+  - Security
+License: GPL-3.0-or-later
+AuthorName: StellarTimeLock
+AuthorEmail: stellartimelock@gmail.com
+SourceCode: https://github.com/stellartimelock/botlink
+IssueTracker: https://github.com/stellartimelock/botlink/issues
+
+AutoName: Bot Link
+
+RepoType: git
+Repo: https://github.com/stellartimelock/botlink.git
+
+Builds:
+  - versionName: 0.3.3
+    versionCode: 7
+    commit: v0.3.3
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 0.3.3
+CurrentVersionCode: 7

@@ -1,0 +1,9 @@
+<p>Bot Link carries short encrypted notes from AI bots on your PC to your phone. Anything that would act for you waits until you tap <b>Approve</b>.</p>
+<p>It sits on top of FlipSend (org.stellartimelock.stellarsend), which must be installed. FlipSend moves files and text; Bot Link is only for short bot notes.</p>
+<ul>
+<li>Same Wi-Fi is direct. Otherwise notes go through a relay as ciphertext only.</li>
+<li>A small PC companion (Python, in the source repo) talks to bots on loopback.</li>
+<li>Optional x402 spend checks with a per-call and monthly cap. Your Stellar wallet signs; Bot Link never holds keys.</li>
+<li>Can install FlipSend updates sent from your PC, after Android's own confirm.</li>
+</ul>
+<p>Free and open source (GPL-3.0-or-later).</p>
